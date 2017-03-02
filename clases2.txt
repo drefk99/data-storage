@@ -1,0 +1,291 @@
+    1  sudo yum -y install git vim curl
+    2  ifconfig
+    3  ping google.com
+    4  ifconfig
+    5  ifconfig | less
+    6  sudo yum -y install git vim curl
+    7  yum -y install git vim curl
+    8  ifconfig
+    9  yum -y install git vim curl
+   10  kill 11768
+   11  yum -y install git vim curl
+   12  ifconfig
+   13  ifconfig | less
+   14  l+ifconfig -la
+   15  ifconfig -la
+   16  ifconfig -a
+   17  ls /etc/
+   18  man ip
+   19  startx
+   20  init 6
+   21  ifconfig
+   22  dhclient p4p2
+   23  yum -y install git vim curl
+   24  git -c http.sslVerify=false clone https://gitlab.beeva.mx/raze/data-graduates.git
+   25  ls
+   26  yum update
+   27  yum install postgresql-server postgresql-contrib
+   28  nmap
+   29  yum update
+   30  nano
+   31  vi
+   32  curl
+   33  curl --help
+   34  curl google.com
+   35  ping google.com
+   36  ls -la
+   37  ls
+   38  ls -l
+   39  ls -la
+   40  ls -lah
+   41  tail -2 history
+   42  tail -2 | history
+   43  history | tail
+   44  history | tail -2
+   45  git -c http.sslVerify=false clone https://gitlab.beeva.mx/raze/data-graduates.git
+   46  ps aux | grep posgres
+   47  ps -efa | grep posgres
+   48  yum -y install nmap
+   49  nmap localhost
+   50  systemctl status postres
+   51  nmap -sTUlocalhost
+   52  nmap -sTU localhost
+   53  git clone https://github.com/razeone/data-graduates.git
+   54  ls
+   55  ps aux | grep postges
+   56  ps aux | grep postgres
+   57  systemctl start postgresql
+   58  postgresql-setup initdb
+   59  ps aux | grep postgres
+   60  systemctl start postgresql
+   61  ps aux | grep postgres
+   62  vi /var/lib/pgsql/data/pg_hba.conf
+   63  su postgres
+   64  ls -la
+   65  ls -lah
+   66  dh
+   67  df
+   68  df -h
+   69  top
+   70  htop
+   71  yum install htop
+   72  man yum
+   73  vi /var/lib/pgsql/data/pg_hba.conf
+   74  cd /var/lib/pgsql/data/
+   75  ls
+   76  vi postgresql.conf 
+   77  createdb beeva
+   78  psql -d beeva
+   79  su postresql
+   80  su postres
+   81  su postgres
+   82  systemctl restart postgresql
+   83  psql
+   84  systemctl enable postgresql
+   85  sudo -i -u postgres
+   86  psql
+   87  sudo -i -u postgres
+   88  exit
+   89  su postgres
+   90  cd /var/lib/pgsql/data/
+   91  vi /var/lib/pgsql/data/pg_hba.conf
+   92  su postgres
+   93  systectl restart postgresql
+   94  systemctl restart postgresql
+   95  su postgres
+   96  vi /var/lib/pgsql/data/pg_hba.conf
+   97  systectl restart postgresql
+   98  systemctl restart postgresql
+   99  su postgres
+  100  exit
+  101  psql -W beeva -U posgres
+  102  su
+  103  exit
+  104  git clone https://github.com/razeone/data-graduates.git
+  105  yum update
+  106  init 0
+  107  init 6
+  108  yum update
+  109  ifconfig p2p4
+  110  ifconfig p4p2
+  111  dhclient p4p2
+  112  cd Documentos/
+  113  git clone https://github.com/drefk99/data-storage.git
+  114  ls
+  115  cd data-storage/
+  116  ls
+  117  vim README.md
+  118  ls
+  119  cat README.md 
+  120  vim README.md
+  121  git status
+  122  vim README.md
+  123  git add README.md
+  124  gis status --color
+  125  git status --color
+  126  git status 
+  127  git commit -m "This is my first commit"
+  128  gut config --gloabl user.name "drefk99"
+  129  git config --gloabl user.name "drefk99"
+  130  git config --global user.name "drefk99"
+  131  git config --global user.email drefk94@gmail.com
+  132  git commit -m "This is my first commit"
+  133  git push 
+  134  ls -la
+  135  cd .git
+  136  ls
+  137  ls -la
+  138  cd ..
+  139  git config --global user.email "drefk94@gmail.com"
+  140  git commit -m "This is my second commit"
+  141  git push 
+  142  touch hola.txt
+  143  git status
+  144  git commit -m "This is my second commit"
+  145  git push origin master
+  146  ls
+  147  git push 
+  148  rm *.txt
+  149  ls
+  150  git commit -m "This is my third commit"
+  151  git push 
+  152  vi data
+  153  ls
+  154  mkdir data
+  155  ls
+  156  cd data/
+  157  vi datos
+  158  vi datos.csv
+  159  cd
+  160  git status
+  161  git statuscd Documentos/
+  162  cd Documentos/
+  163  ls
+  164  cd ..
+  165  ls
+  166  cd /home/
+  167  ls
+  168  cd administradorcito/
+  169  ls
+  170  ls Documentos/
+  171  ls
+  172  cd Documentos/
+  173  cd data-storage/
+  174  ls
+  175  git status
+  176  git add --all
+  177  git checkout -b develop
+  178  git branch
+  179  git add add data/
+  180  git add data/
+  181  git status
+  182  git commit -m "Adding data"
+  183  git push origin develop
+  184  ls 
+  185  vi otro.csv
+  186  git status
+  187  git add --all && git commit -m "new file"
+  188  git push origin develop
+  189  git branch
+  190  ls
+  191  vim codebook.md
+  192  git status
+  193  git add all
+  194  git add --all
+  195  git status
+  196  git commit -m "Change file names and add codebook" && git push origin develop
+  197  yum -y install python-virtual
+  198  yum search puthon
+  199  yum search python
+  200  yum groupinstall -y development
+  201  python --version
+  202  python3.5 --version
+  203  yum -y install python3
+  204  yum -y install python3.5
+  205  yum search python3
+  206  yum -y install https://centos7.iuscommunity.org/ius-release.rpm
+  207  yum -y install python35u-3.5.2
+  208  yum update
+  209  yum -y install python3
+  210  yum search python3
+  211  yum -y install python36u
+  212  python --version
+  213  python36 --version
+  214  python3.6 --version
+  215  wich python3.6
+  216  which python3.6
+  217  vim .gitignore
+  218  git add .gitignore
+  219  git commit -m "add .gitignore"
+  220  git status
+  221  git push origin develop
+  222  git status
+  223  virualenv -p python3.6 env
+  224  virtualenv -p python3.6 env
+  225  yum install python-vitualenv
+  226  yum install python-virtualenv
+  227  virtualenv -p python3.6 env
+  228  which python3.6
+  229  virtualenv -p /usr/bin/python3.6 env
+  230  virtualenv -p /usr/bin/python3.6 envls
+  231  ls
+  232  virtualenv -p /usr/bin/python3.6 envls
+  233  history > clases.txt
+  234  git add clases.txt
+  235  git commit -m "add clases.txt"
+  236  git push origin develop
+  237  cmd -bc
+  238  date
+  239  who
+  240  who -show
+  241  ls -R
+  242  more
+  243  morels
+  244  ls
+  245  more codebook.md 
+  246  less codebook.md 
+  247  mv --help
+  248* ps -ef
+  249  expr 1 + 2
+  250  expr 1 * 2
+  251  expr 1 - 2
+  252  expr 1 / 2
+  253  expr 1 x 2
+  254  expr 1 X 2
+  255  expr 1 . 2
+  256  expr 1 ^ 2
+  257  expr 1 (2)
+  258  expr --help
+  259  expr 1 * 2
+  260  expr 1*2
+  261  expr 1* 2
+  262  expr 1 * 2
+  263  expr 1 \* 2
+  264  expr 1 \/ 2
+  265  expr 2 \/ 2
+  266  for i in 10; do echo hola; done
+  267  for 0 in 10; do echo hola; done
+  268  for i in 10; do echo hola; done
+  269  i=0
+  270  for i in 10; do echo hola; done
+  271  for i in '10'; do echo hola; done
+  272  echo $i
+  273  i=0
+  274  for i in '10'; do echo hola; done
+  275  for i in e; do echo hola; done
+  276  ls 
+  277  ls -l
+  278  ls -a
+  279  ls -t
+  280  ls -latR
+  281  ls -lahtR
+  282  yum intsall htop
+  283  yum install htop
+  284  htop
+  285  ps ax
+  286  fg
+  287  bg
+  288  yum install fg
+  289  foreground
+  290  ls
+  291  history > clases2.txt
