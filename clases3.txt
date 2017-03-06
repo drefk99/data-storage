@@ -1,0 +1,200 @@
+  409  ls
+  410  python panpl.py 
+  411  cat panpl.py 
+  412  python
+  413  vi downf.py
+  414  ls
+  415  vi downf.py
+  416  python
+  417  ls
+  418  cd ..
+  419  ls
+  420  cd data
+  421  ls
+  422  cd ..
+  423  cd pt_scripts/
+  424  vi readcdv.py
+  425  ls
+  426  python
+  427  vi unzif.py
+  428  python
+  429  ls ../data/
+  430  cat ../data/FL_insurance_sample.csv 
+  431  less ../data/FL_insurance_sample.csv 
+  432  ls
+  433  vi readcdv.py 
+  434  vi readcdv.py ls
+  435  ls
+  436  vi readcdv.py
+  437  python
+  438  cat readcdv.py 
+  439  vi readcdv.py
+  440  python readcdv.py 
+  441  vi readan.py 
+  442  python 
+  443  exit
+  444  su postgres
+  445  telnet -p 127.0.0.1 -p 54432
+  446  yum install telnet
+  447  telnet -p 127.0.0.1 -p 5432
+  448  telnet -p 127.0.0.1 5432
+  449  telnet 127.0.0.1 -p 5432
+  450  telnet 127.0.0.1:5432
+  451  nmap localhost
+  452  telnet 127.0.0.1:5432
+  453  telnet localhost:5432
+  454  ps aux | grep postgres
+  455  ls /var/lib/pgsql/data/
+  456  vim /var/lib/pgsql/data/pg_hba.conf 
+  457  systemctl restart postgresql
+  458  systemctl status postgresql
+  459  telnet 127.0.0.1:5432
+  460  su postgres
+  461  psql
+  462  su postgres
+  463  ls /var/lib/pgsql/data/
+  464  ls /var/lib/pgsql/data/postgresql.conf 
+  465  vi /var/lib/pgsql/data/postgresql.conf 
+  466  systemctl restart postgresql
+  467  telnet 127.0.0.1:5432
+  468  su postgres
+  469  netstat -nap | grep 5432
+  470  ping 127.0.0.1
+  471  telnet 127.0.0.1:5432
+  472  su postgres
+  473  ls
+  474  vi pt_scripts/psypg.py 
+  475  ls
+  476  cd pt_scripts/
+  477  ls
+  478  cd ..v 
+  479  ls
+  480  cd ..
+  481  ls
+  482  vi mrpy.py 
+  483  ls pt_scripts/
+  484  ls pt_scripts/data-graduates/
+  485  ls data-graduates/Introduction_01/data/countries.json 
+  486  cd ..
+  487  ls
+  488  cd data
+  489  cd data-storage/
+  490  ls
+  491  cd pt_scripts/
+  492  ls
+  493  cat readjson.py 
+  494  tranjson.py
+  495  vi tranjson.py
+  496  git status
+  497  git add psypg.py tranjson.py 
+  498  git commit -m 'Python files for merge'
+  499  git branch
+  500  git push origin develop
+  501  ls 
+  502  cd ..
+  503  git status
+  504  mv mrpy.py 
+  505  mv mrpy.py pt_scripts/
+  506  ls
+  507  gut status
+  508  git status
+  509  git add pt_scripts/mrpy.py
+  510  git commit -m "missed file"
+  511  git push origin develop
+  512  cd pt_scripts/
+  513  ls
+  514  vim tranjson.py 
+  515  git status
+  516  pwd
+  517  ls data-graduates/
+  518  ls data-graduates/Introduction_01/
+  519  ls data-graduates/Introduction_01/data/
+  520  git add  data-graduates/Introduction_01/data/countries.json data-graduates/Introduction_01/data/countries.csv
+  521  git commit -m 'file to work'
+  522  git push origin develop
+  523  uname --help
+  524  uname -a
+  525  uname -ao
+  526  uname -o
+  527  uname --version
+  528  uname -o
+  529  netcat
+  530  yum install netcat
+  531  mkdir /opt/test
+  532  ls -la /opt/
+  533  vi sudo
+  534  visudo
+  535  sudo ls
+  536  cd /opt/test
+  537  exit
+  538  yum update
+  539  yum autoremove
+  540  yum update
+  541  yum upgrade
+  542  pip
+  543  cd Documentos/
+  544  ls
+  545  cd data-storage/
+  546  ls
+  547  cd data-graduates/
+  548  ls
+  549  cd ..
+  550  source env/bin/activate
+  551  pip freeze
+  552  dhclient p4p4
+  553  dhclient p4p2
+  554  python --v
+  555  python -v
+  556  python --version
+  557  vi psypg.py
+  558  ls
+  559  mv psypg.py pt_scripts/
+  560  ls
+  561  cd pt_scripts/
+  562  python psypg.py 
+  563  vi psypg.py 
+  564  python psypg.py 
+  565  pwd
+  566  psql
+  567  su postgres
+  568  python psypg.py 
+  569  vi psypg.py 
+  570  python psypg.py 
+  571  vi psypg.py 
+  572  python psypg.py 
+  573  vi psypg.py 
+  574  python psypg.py 
+  575  python 
+  576  git clone https://github.com/razeone/data-graduates.git
+  577  cd ..
+  578  ls
+  579  git status
+  580  vi mrpy.py
+  581  python mrpy.py
+  582  vi mrpy.py
+  583  python mrpy.py
+  584  python
+  585  vi mrpy.py
+  586  python
+  587  git status
+  588  git add py_script.py salud.txt script_bash.sh ejem.txt
+  589  git commit -m 'Socrates class'
+  590  git push origin develop
+  591  git status
+  592  git add script_bash_total.sh
+  593  git commit -m 'I forget that'
+  594  git push
+  595  git push origin develop
+  596  desactivate
+  597  desactivateexit
+  598  desactivate
+  599  exit
+  600  history | tail -100
+  601  history | tail -200
+  602  ls 
+  603  cd Documentos/
+  604  ls
+  605  cd data
+  606  cd data-storage/
+  607  ls
+  608  history | tail -200 >> clases3.txt
