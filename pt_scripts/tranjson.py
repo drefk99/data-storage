@@ -6,11 +6,19 @@ with open('data-graduates/Introduction_01/data/countries.json') as data_file:
 	data=json.load(data_file)
 
 
-keys = data[0].keys()
+df = pd.DataFrame(data)
 
-df = pd.DataFrame(columns = keys)
+df_semi=df
 
-for i in data:
-	for k in i:
+for i in range(0, len(data)):
 
-		print(value)
+	df_semi['name'][i]=df['name'][i]['common']
+
+csv_count = pd.read_csv('data-graduates/Introduction_01/data/countries.csv')
+
+merge_count = pd.merge(csv_count, df_semi, on = 'name')
+merge_count
+
+	
+
+		
