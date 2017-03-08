@@ -46,20 +46,20 @@ else:
 	zip_ref.close()
 
 #movie.ID mv.ID MV.ID MV-ID
-print(file_names)
-movie_names = ['movie_id', 'tittle', 'genres']
-rating_names = ['user_id', 'movie_id', 'rating', 'timestamp']
+#print(file_names)
+#movie_names = ['movie_id', 'tittle', 'genres']
+#rating_names = ['user_id', 'movie_id', 'rating', 'timestamp']
 
 #Reading the files needed 
-movies = pd.read_csv(working_dir + 
-	inner_dir +
-	expected_files[1], sep = ','
-	names = movie_names)
-ratings = pd.read_csv(working_dir +
-	inner_dir +
-	expected_files[2],
-	sep = ',', 
-	names = rating_names)
+#movies = pd.read_csv(working_dir + 
+#	inner_dir +
+#	expected_files[1], sep = ',',
+#	names = movie_names)
+#ratings = pd.read_csv(working_dir +
+#	inner_dir +
+#	expected_files[2],
+#	sep = ',', 
+#	names = rating_names)
 
 # Reading the files needed for this analysis
 movies = pd.read_csv(working_dir + inner_dir + expected_files[1], sep = ',')
@@ -78,24 +78,49 @@ print("The dimension of the data frames are:")
 print(movies.count())
 print(ratings.count())
 
-rate_movies = pd.merge(movies, ratings, on = 'movie_id')
-rate_movies =  rated_movies.sort_values('rating', ascending = False)
+rate_movies = pd.merge(movies, ratings, on = 'movieId')
+#Prueba
+#rate_movies = rate_movies.sort_values('rating', ascending = False)
 
 #number of movies: 9126
 #number fo evaluations: 10005
+#Prueba
+#top20 = rate_movies.head(20)
 
-top20 = rated_movies.head(20)
+top20=rate_movies['rating'].groupby(rate_movies['title']).sum()
+top20=top20.sort_values(ascending=False).head(20)
 
 # Rated movies names:
-#['movie_id', 'tittle', 'genres', 'user_id', 'rating', timestamp']
-for i in range(5):
-	title = top20[i]['title']
-	for j in rated_movies:
-		if rated_movies[j]['title'] == title:
-			top5_dict[title] = rated_movies[j]
+#['movie_id', 'tittle', 'genres', 'user_id', 'rating', timestamp'] Chalenge***
+#for i in range(5):
+#	title = top20[i]['title']
+#	for j in rate_movies:
+#		if rate_movies[j]['title'] == title:
+#			top5_dict[title] = rate_movies[j]
+
+print("Top 20")
+print(top20)
+
+top5_tittle = top20.head(5)
+
+top5_index = top5_tittle.index.get_level_values('title')
+
+top5 = pd.DataFrame()
+
+for i in top5_index:
+	top5=top5.append(rate_movies.loc[rate_movies['title'] == i])
+	print(rate_movies.loc[rate_movies['title'] == i])
 
 
-print(rated_movies.head(20))
+
 if DEBUG:
-	print(list(rated_movies.columns.values))
+	print(list(rate_movies.columns.values))
+
+print("Clase del miercoles")
+grouped = rate_movies.groupby('title')
+grouped_sum = grouped.aggregate(sum)
+grouped_mean = grouped.aggregate(mean)
+#grouped_cout = grouped.aggregate(count)
+#print(grouped_
+
 

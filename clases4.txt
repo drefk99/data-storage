@@ -1,0 +1,150 @@
+  732  sudo python pt_scripts/tranjson.py 
+  733  ls
+  734  sudo python pt_scripts/tranjson.py 
+  735  cd pt_scripts/
+  736  ls
+  737  sudo python tranjson.py 
+  738  python tranjson.py 
+  739  http://bit.ly/2mT7pVO
+  740  vim mvdown.py
+  741  pyhthon mvdown.py
+  742  python mvdown.py
+  743  head -29 mvdown.py
+  744  python mvdown.py
+  745  vim mvdown.py
+  746  ls
+  747  ls data-graduates/
+  748  cd ..
+  749  ls
+  750  cd data|
+  751  cd data
+  752  ls
+  753  vim pt_scripts/mvdown.py
+  754  cd ..
+  755  ls
+  756  vim pt_scripts/mvdown.py
+  757  ls
+  758  cd data
+  759  ls
+  760  mkdir movies
+  761  cd ..
+  762  python pt_scripts/mvdown.py
+  763  ls
+  764  cd pt_scripts/
+  765  ls
+  766  vim mvdown.py
+  767  cd ..
+  768  ls
+  769  cd data
+  770  ls
+  771  rm moviesmovies.zip 
+  772  ls
+  773  cd ..
+  774  python pt_scripts/mvdown.py
+  775  vim pt_scripts/mvdown.py
+  776  ls 
+  777  ls data
+  778  cd movies
+  779  cd data/movies
+  780  ls
+  781  cd ..
+  782  vim pt_scripts/mvdown.py
+  783  python pt_scripts/mvdown.py
+  784  vim pt_scripts/mvdown.py
+  785  python pt_scripts/mvdown.py
+  786  vim pt_scripts/mvdown.py
+  787  python pt_scripts/mvdown.py
+  788  vim pt_scripts/mvdown.py
+  789  python pt_scripts/mvdown.py
+  790  vim pt_scripts/mvdown.py
+  791  python pt_scripts/mvdown.py
+  792  vim pt_scripts/mvdown.py
+  793  ls 
+  794  ls data/
+  795  ls data/movies
+  796  mkdir data/movies/ml-latest-small/
+  797  vim pt_scripts/mvdown.py
+  798  python pt_scripts/mvdown.py
+  799  vim pt_scripts/mvdown.py
+  800  python pt_scripts/mvdown.py
+  801  vim pt_scripts/mvdown.py
+  802  python pt_scripts/mvdown.py
+  803  vim pt_scripts/mvdown.py
+  804  python pt_scripts/mvdown.py
+  805  vim pt_scripts/mvdown.py
+  806  python pt_scripts/mvdown.py
+  807  ls pt_scripts/
+  808  ls
+  809  cp -R data pt_scripts/
+  810  vim pt_scripts/mvdown.py
+  811  python pt_scripts/mvdown.py
+  812  vim pt_scripts/mvdown.py
+  813  python pt_scripts/mvdown.py
+  814  vim pt_scripts/mvdown.py
+  815  python pt_scripts/mvdown.py
+  816  vim pt_scripts/mvdown.py
+  817  python pt_scripts/mvdown.py
+  818  rm -Rf data 
+  819  python pt_scripts/mvdown.py
+  820  mv -R pt_scripts/data/ ./
+  821  mv -R pt_scripts/data/ 
+  822  mv  pt_scripts/data/ ./
+  823  ls
+  824  python pt_scripts/mvdown.py
+  825  ls pt_scripts/
+  826  mv  pt_scripts/data/ ./
+  827  vim pt_scripts/mvdown.py
+  828  git status
+  829  git add --all
+  830  git commit -m 'Python class'
+  831  git push origin develop
+  832  history
+  833  deactivate
+  834  git status
+  835  wq
+  836  init 0
+  837  su postgres
+  838  systemctl restart postgres
+  839  systemctl restart postgresql
+  840  su postgres
+  841  systemctl restart postgresql
+  842  su postgres
+  843  systemctl restart postgresql
+  844  su postgres
+  845  systemctl restart postgresql
+  846  su postgres
+  847  systemctl restart postgresql
+  848  su postgres
+  849  systemctl restart postgresql
+  850  firewall-cmd --permanent --zone=public --add-service=postgresql
+  851  systemctl restart firewalld.service
+  852  systemctl restart postgresql
+  853  su postgres
+  854  systemctl restart postgresql
+  855  systemctl restart firewalld.service
+  856  su postgres
+  857  awk ‘{ print $1 }’ entrada.txt
+  858  awk ‘{ print hola }’ entrada.txt
+  859  awk '{ print hola }' entrada.txt
+  860  cd ..
+  861  touch entrada.txt
+  862  awk '{ print hola }' entrada.txt
+  863  cat entrada.txt 
+  864  awk '{ print "hola" }' entrada.txt
+  865  cat entrada.txt 
+  866  awk '{ print $1 }' entrada.txt
+  867  cat entrada.txt 
+  868  awk '{ print $1 }' entrada.txt hola
+  869  sudo yum search docker
+  870  yum install docker
+  871  systemctl status docker
+  872  systemctl start docker
+  873  systemctl status docker
+  874  docker -v
+  875  sudo dicker search postgres
+  876* sudo docker run postgres
+  877  sudo dicker search cacti
+  878  sudo docker search cacti
+  879  history
+  880  cd data-storage/
+  881  history | tail -150 > clases4.txt
