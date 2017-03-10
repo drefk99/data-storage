@@ -1,0 +1,150 @@
+  780  vim dockerfiel
+  781  vim dockerfile
+  782  sudo docker build -t docker-whale /home/administradorcito/Documentos/dockerfiel/dockerbuild/
+  783  sudo docker iamges
+  784  sudo docker images
+  785  sudo docker run docker-whale
+  786  ls
+  787  vim dockerfile 
+  788  sudo docker images
+  789  sudo docker rm docker-whale
+  790  cd ..
+  791  ls
+  792  mkdir dockerbuild
+  793  cd dockerbuild/
+  794  ls
+  795  sudo docker --name=debiaF1 debian
+  796  sudo docker run --name=debiaF1 debian
+  797  sudo docker ps
+  798* sudo docker exec -it 
+  799  sudo docker stop apacheHW
+  800  sudo docker run --name=debiaF1 debian
+  801  sudo docker startdebiaF1 
+  802  sudo docker start debiaF1 
+  803  sudo docker ps
+  804  sudo docker exec -it debianF1 bash
+  805  sudo docker ps -a
+  806  sudo docker start debiaF1 
+  807  sudo docker exec -it debianF1 bash
+  808  sudo docker exec -it debiaF1 bash
+  809  sudo docker run debiaF1 
+  810  sudo docker run debian
+  811  sudo docker ps -a
+  812  sudo docker ps 
+  813  sudo docker exec -it evil_swanson bash
+  814  sudo docker start evil_swanson
+  815  sudo docker exec -it debiaF1 bash
+  816  sudo docker rm evil-swanson
+  817  sudo docker rm -f evil-swanson
+  818  sudo docker rm -f debian
+  819  systemctl status docker
+  820  sudo docker ps 
+  821  sudo docker ps -a
+  822  sudo docker stop 6fd5146857d0
+  823  sudo docker stop c28ead1a3523
+  824  sudo docker rm c28ead1a3523
+  825  sudo docker rm 6fd5146857d0
+  826  sudo docker ps -a
+  827  sudo docker run --name=debiaF1 debian:8.0
+  828  sudo docker ps
+  829  sudo docker ps -a
+  830  sudo docker run debiaF1 
+  831  sudo docker start debiaF1 
+  832  sudo docker ps -a
+  833  sudo docker ps 
+  834  sudo docker exec -it debiaF1 bash
+  835  sudo docker exec -it debiaF1
+  836  sudo docker exec -it --name=debianFe debiaF1
+  837  vim apadeb-fe
+  838  sudo docker build -t debian-apaV /home/administradorcito/Documentos/dockerbuild/apadeb-fe
+  839  history | tail -100
+  840  vim apadeb-fe
+  841  sudo docker build -t debian-apaV /home/administradorcito/Documentos/dockerbuild/
+  842  sudo docker build -t docker-apadeb /home/administradorcito/Documentos/dockerbuild/
+  843  vim apadeb-fe
+  844  ls
+  845  mv apadeb-fe Dockerfile
+  846  ls
+  847  sudo docker build -t docker-apadeb /home/administradorcito/Documentos/dockerbuild/
+  848  sudo docker images
+  849  sudo docker run --name=deb-fe -p 8100:80 8543:443 docker-apadeb
+  850  sudo docker run --name=deb-fe -p 8100:80 -p 8543:443 --detach docker-apadeb
+  851  ps -a
+  852  sudo docker ps -a
+  853  sudo docker ps 
+  854  sudo docker exec -it deb-fe bash
+  855  sudo docker  start deb-fe 
+  856  sudo docker ps 
+  857  sudo docker run --name=deb-fe -p 8100:80 -p 8543:443 --detach docker-apadeb
+  858  sudo docker run --name=deb-fe2 --detach docker-apadeb
+  859  sudo docker ps 
+  860  sudo docker ps -a
+  861  sudo docker exec -it deb-fe2 bash
+  862  sudo docker exec -it deb-fe2 
+  863  sudo docker exec  deb-fe2 bash
+  864  sudo docker exec deb-fe2 bash
+  865  sudo docker ps 
+  866  sudo docker rm -f  deb-fe2 
+  867  sudo docker rm -f  deb-fe
+  868  sudo docker ps -a
+  869  sudo docker rm -f  debiaF1
+  870  sudo docker ps -a
+  871  ls
+  872  vim Dockerfile 
+  873  sudo docker build -t docker-apacen /home/administradorcito/Documentos/dockerbuild/
+  874  sudo docker ps
+  875  sudo docker ps -a
+  876  sudo docker run --name=nue_fe apa-cen
+  877  vim apadeb-fe
+  878  ls
+  879  vim Dockerfile 
+  880  sudo docker ps
+  881  sudo docker ps -a
+  882  sudo docker images
+  883  sudo docker ps -a
+  884  sudo docker rm -f stupefied_bhaskara
+  885  sudo docker rm -f apacen
+  886  sudo docker rm -f apa-cen
+  887  sudo docker images
+  888  sudo docker rm -f e4fa28ac5d5e
+  889  sudo docker rm  e4fa28ac5d5e
+  890  sudo docker rm  -i e4fa28ac5d5e
+  891  sudo docker rm i e4fa28ac5d5e
+  892  sudo docker rmi e4fa28ac5d5e
+  893  sudo docker images
+  894  sudo docker rmi d82f599287cd
+  895  sudo docker rmi 6b362a9f73eb
+  896  sudo docker iamges
+  897  sudo docker images
+  898  sudo docker rmi 67591570dd29
+  899  sudo docker rmi 978d85d02b87
+  900  sudo docker rmi 67591570dd29
+  901  sudo docker rmi 6b362a9f73eb
+  902  sudp docker images
+  903  sudo docker images
+  904  sudo docker rmi 67591570dd29
+  905  cd ..
+  906  ls
+  907  cd data
+  908  cd data-storage/
+  909  ls
+  910  history | tail -150 > clase5b.txt
+  911  sudo history | tail -150 > clase5b.txt
+  912  ls
+  913  history | tail -150 > clase5b.txt
+  914  history | tail -150 > clases5b.txt
+  915  cd ..
+  916  ls
+  917  cd ..
+  918  ls
+  919  cd Documentos/da
+  920  cd Documentos/data-storage/
+  921  ls
+  922  sudo history | sudo tail -150 > clases5b.txt
+  923  su
+  924  cd ..
+  925  ls
+  926  cd linux
+  927  ls
+  928  sudo history | sudo tail -150 > clases5b.txt
+  929  history | sudo tail -150 > clases5b.txt

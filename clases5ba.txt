@@ -1,0 +1,150 @@
+  668  cat hola.html
+  669  history | grep ln
+  670  ls -la
+  671  cd /tmp
+  672  ls
+  673  cd mozilla_administradorcito0/
+  674  ls
+  675  cd /home/administradorcito/Documentos/
+  676  ls
+  677  git clone https://github.com/drefk99/darkframe.git
+  678  ls
+  679  cd darkframe/
+  680  ls
+  681  python3.6 -m venv env
+  682  ls
+  683  source env/bin/activate
+  684  python --version
+  685  pip install django djangorestframework psycopg2
+  686  pip freeze > requirements.txt
+  687  django-admin startproject blitzkrieg
+  688  la
+  689  ls
+  690  cd blitzkrieg/
+  691  ls
+  692  cd blitzkrieg/
+  693  ls
+  694  cat settings.py | less
+  695  cd ..
+  696  ./manage.py runserver
+  697  ./manage.py makemigrations
+  698  ./manage.py migrate
+  699  ./manage.py runserver localhost:8080
+  700  ls
+  701  su postgres
+  702  su 
+  703  ls
+  704  ./manage.py createuser admin
+  705  ./manage.py createsuperuser admin
+  706  ./manage.py createsuperuser
+  707  ./manage.py runserver
+  708  su 
+  709  ./manage.py runserver
+  710  ./manage.py y makemigrations
+  711  ./manage.py makemigrations
+  712  sudo ./manage.py makemigrations
+  713  systemctl status postgresql
+  714  ./manage.py makemigrations
+  715  sudo ./manage.py makemigratio
+  716  ./manage.py makemigr
+  717  ./manage.py makemigrations
+  718  ./manage.py migrate
+  719   psql -h 127.0.0.1 -U masbee -W beeva_test
+  720   psql -h 127.0.0.1 -U masbee 
+  721   psql -h 127.0.0.1 -Umasbee 
+  722   psql -Umasbee 
+  723  beeva
+  724   psql -Umasbee 
+  725  beeva
+  726   psql -Umasbee 
+  727   psql -U masbee 
+  728   psql masbee 
+  729   psql -U masbee -W beeva_test
+  730   psql -h localhost-U masbee -W beeva_test
+  731   psql -h localhost -U masbee -W beeva_test
+  732   psql -h 127.0.0.1 -U masbee -W beeva_test
+  733  ./manage.py makemigrations
+  734  ls
+  735  ./manage.py makemigrations
+  736   psql -h 127.0.0.1 -U masbee -W beeva_test
+  737   psql -W-U masbee 
+  738   psql -W -U masbee 
+  739   psql -W beeva_test -U masbee 
+  740   psql -W  -U masbeeadministradorcito
+  741   psql -W  -U administradorcito
+  742   psql -h 127.0.0.1 -U masbee -W beeva_test
+  743   psql -h -U masbee -W beeva_test
+  744   psql -U masbee -W beeva_test
+  745   psql -U masbee -W beeva_test -h 127.0.0.1
+  746  ./manage.py makemigrations
+  747  sudo ./manage.py makemigrations
+  748  ./manage.py makemigrations
+  749  ./manage.py migrate
+  750  ./manage.py runserver
+  751  ./manage.py makemigrations
+  752  ./manage.py migrate
+  753  ./manage.py runserver
+  754  ./manage.py createsuperuser
+  755  ./manage.py runserver
+  756  ./manage.py makemigrations
+  757  ./manage.py migrate
+  758  ./manage.py shell
+  759  history | tail -20
+  760  history | tail -30
+  761  history | tail -70
+  762  cd ..
+  763  history | tail -70 > clase5a.txt
+  764  exit
+  765  su
+  766  systemctl start docker
+  767  sudo systemctl start docker
+  768  sudo docker image
+  769  sudo docker ps
+  770  sudo docker ps -a
+  771  sudo docker start apacheHW
+  772  sudo docker ps -a
+  773  sudo docker ps 
+  774  ls
+  775  cd Documentos/
+  776  ls -la
+  777  vim onda
+  778  sudo docker ps 
+  779  sudo docker run docker/whalesay cowsay I-will-be-a-god
+  780  ls
+  781  cd dockerbuild/
+  782  ls
+  783  history | tail -20
+  784  history | tail -100
+  785  cd ..
+  786  cd dockerfiel/dockerbuild/
+  787  ls
+  788  vim dockerfile 
+  789  sudo docker run --name=apa-cen centos:latest
+  790  sudo docker ps
+  791  sudo docker exec -it trusting_dijkstra bash
+  792  sudo docker ps
+  793  sudo docker exec -it trusting_dijkstra bash
+  794  sdq
+  795  sudo docker start trusting_dijkstra 
+  796  sudo docker starttrusting_dijkstra 
+  797  sudo docker start trusting_dijkstra 
+  798  sudo docker ps -a
+  799  sudo docker start stupefied_bhaskara
+  800  sudo docker exec -it stupefied_bhaskara bash
+  801  sudo docker start trusting_dijkstra 
+  802  sudo docker start stupefied_bhaskara
+  803  sudo docker exec ps -a
+  804  sudo dockerps -a
+  805  sudo docker ps -a
+  806  sudo docker ps 
+  807  sudo docker start stupefied_bhaskara
+  808  sudo docker ps 
+  809  sudo docker run stupefied_bhaskara
+  810  sudo docker ps -a
+  811  sudo docker run stupefied_bhaskara
+  812  ps -a
+  813  sudo docker ps -a
+  814  echo $PATH
+  815  cd ..
+  816  ls
+  817  history | sudo tail -150 > clases5ba.txt
